@@ -1,0 +1,26 @@
+name: Validate portfolio files
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate HTML and SVG
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          import xml.etree.ElementTree as ET
+          html = Path("docs/index.html").read_text(encoding="utf-8")
+          assert "<!doctype html>" in html.lower()
+          assert "Revenue Maximisation" in html
+          ET.parse("assets/cover.svg")
+          print("Portfolio HTML and cover SVG checks passed.")
+          PY
+      - name: Check required report assets
+        run: |
+          test -f report/Revenue_Maximisation_Report_Group5.pdf
+          test -f notebooks/revenue_maximisation_analysis.ipynb
