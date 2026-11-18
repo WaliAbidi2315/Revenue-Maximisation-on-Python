@@ -27,6 +27,10 @@ jobs:
         uses: actions/configure-pages@v5
         with:
           enablement: true
+      - name: Copy image assets into published site
+        run: |
+          mkdir -p docs/assets
+          cp assets/* docs/assets/
       - name: Upload portfolio
         uses: actions/upload-pages-artifact@v3
         with:
