@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="720" viewBox="0 0 1600 720" role="img" aria-labelledby="title desc">
+<title id="title">Revenue Maximisation — Data-driven growth strategy</title>
+<desc id="desc">Abstract revenue growth dashboard with rising chart lines and business analytics metrics.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#10182f"/><stop offset=".58" stop-color="#1c3975"/><stop offset="1" stop-color="#087b78"/></linearGradient>
+ <linearGradient id="line" x1="0" y1="1" x2="1" y2="0"><stop stop-color="#56d5c4"/><stop offset="1" stop-color="#b6e7ff"/></linearGradient>
+ <pattern id="grid" width="64" height="64" patternUnits="userSpaceOnUse"><path d="M64 0H0V64" fill="none" stroke="#fff" stroke-opacity=".08"/></pattern>
+</defs>
+<rect width="1600" height="720" fill="url(#bg)"/><rect width="1600" height="720" fill="url(#grid)"/>
+<circle cx="1390" cy="120" r="260" fill="#fff" opacity=".035"/><circle cx="1390" cy="120" r="190" fill="none" stroke="#fff" stroke-opacity=".12"/>
+<g font-family="Inter,Arial,sans-serif" fill="#fff">
+ <text x="110" y="130" font-size="23" font-weight="700" letter-spacing="7" fill="#9edddc">PYTHON · BUSINESS ANALYTICS</text>
+ <text x="105" y="265" font-size="86" font-weight="800" letter-spacing="-4">REVENUE</text>
+ <text x="105" y="355" font-size="86" font-weight="800" letter-spacing="-4">MAXIMISATION</text>
+ <text x="110" y="425" font-size="27" fill="#d5e5f5">From customer intelligence to actionable growth strategy</text>
+ <text x="110" y="585" font-size="25" font-weight="700">$1.12B</text><text x="110" y="620" font-size="16" fill="#b7c9e0">ESTIMATED STRATEGIC UPSIDE</text>
+ <text x="410" y="585" font-size="25" font-weight="700">1.99M</text><text x="410" y="620" font-size="16" fill="#b7c9e0">CLEANED TRANSACTIONS</text>
+ <text x="700" y="585" font-size="25" font-weight="700">39.3%</text><text x="700" y="620" font-size="16" fill="#b7c9e0">CUSTOMER CHURN OBSERVED</text>
+</g>
+<g transform="translate(930 205)">
+ <rect x="0" y="0" width="560" height="340" rx="24" fill="#07152b" fill-opacity=".38" stroke="#ffffff" stroke-opacity=".18"/>
+ <g stroke="#fff" stroke-opacity=".13"><path d="M55 70H510M55 135H510M55 200H510M55 265H510"/><path d="M55 45V290M170 45V290M285 45V290M400 45V290M510 45V290"/></g>
+ <path d="M55 245 C110 230 120 170 170 190 S250 220 285 155 S360 180 400 110 S465 130 510 65" fill="none" stroke="url(#line)" stroke-width="8" stroke-linecap="round"/>
+ <path d="M55 245 C110 230 120 170 170 190 S250 220 285 155 S360 180 400 110 S465 130 510 65 L510 290H55Z" fill="#53cfc0" opacity=".12"/>
+ <g fill="#b7f3e9" stroke="#173a64" stroke-width="5"><circle cx="55" cy="245" r="8"/><circle cx="170" cy="190" r="8"/><circle cx="285" cy="155" r="8"/><circle cx="400" cy="110" r="8"/><circle cx="510" cy="65" r="8"/></g>
+ <text x="55" y="322" font-family="Arial,sans-serif" font-size="15" fill="#c5d7ec">CUSTOMERS  ·  REVENUE  ·  FORECASTS  ·  GROWTH</text>
+</g></svg>
