@@ -1,5 +1,12 @@
 # Revenue Maximisation | Data-Driven Growth Strategy
 
+
+<div align="center">
+
+[![Python](https://img.shields.io/badge/Python-3-3776AB?logo=python&logoColor=white)](#) [![Pandas](https://img.shields.io/badge/Pandas-data-150458?logo=pandas&logoColor=white)](#) [![NumPy](https://img.shields.io/badge/NumPy-analysis-013243?logo=numpy&logoColor=white)](#) [![scikit-learn](https://img.shields.io/badge/scikit--learn-modeling-F7931E?logo=scikitlearn&logoColor=white)](#) [![Prophet](https://img.shields.io/badge/Prophet-forecasting-0072B1)](#) [![Jupyter](https://img.shields.io/badge/Jupyter-notebook-F37626?logo=jupyter&logoColor=white)](#)
+
+</div>
+
 **A Python-based commercial analytics project examining revenue decline, customer retention, product mix, regional performance and growth opportunities in a multinational consumables and instruments business.**
 
 ![Project cover](assets/cover.svg)
@@ -51,11 +58,6 @@ The project investigates a declining revenue trajectory in a multinational B2B c
 
 These values are estimates based on the report's assumptions and scenario modelling. They are not realised revenue, independently validated forecasts, or guaranteed outcomes.
 
-## Tech Stack & Methods
-
-**Python · pandas · NumPy · scikit-learn · Facebook Prophet · matplotlib · seaborn · PyArrow · Jupyter**
-
-Methods include exploratory data analysis, log-log OLS regression, BCG portfolio analysis, SKU/customer Pareto analysis, RFM feature engineering and K-means clustering, cohort retention, Prophet time-series forecasting and scenario modelling.
 
 ## Project resources
 
