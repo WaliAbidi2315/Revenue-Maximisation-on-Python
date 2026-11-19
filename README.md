@@ -51,7 +51,7 @@ The project investigates a declining revenue trajectory in a multinational B2B c
 
 These values are estimates based on the report's assumptions and scenario modelling. They are not realised revenue, independently validated forecasts, or guaranteed outcomes.
 
-## Tools and methods
+## Tech Stack & Methods
 
 **Python · pandas · NumPy · scikit-learn · Facebook Prophet · matplotlib · seaborn · PyArrow · Jupyter**
 
